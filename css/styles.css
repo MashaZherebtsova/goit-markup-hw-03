@@ -37,12 +37,20 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 text-decoration: none;
-padding-top: 24px;
-padding-bottom: 25px;
-padding-right: 93px;
+
 
 
 }
+.logo-header {
+    font-family: var(--second-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+margin-right: 93px;
+
+}
+
 
 .first-part {
     color: var(--accent-color);
@@ -72,6 +80,10 @@ padding-right: 93px;
 .nav-list {
     display: flex;
     align-items: center;
+    gap: 50px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
@@ -81,17 +93,22 @@ padding-right: 93px;
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+padding-bottom: 25px;
+padding-right: 0;
     
     
 }
 .header-group {
     display: flex;
     align-items: center;
-    margin-left: 60px;
+
     gap: 50px;
 }
 .header-nav-item:not(:last-child) {
     margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -227,19 +244,7 @@ color: var(--main-color);
 padding-top: 94px;
 
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+
 
 .comanda {
     
@@ -259,11 +264,13 @@ color: #757575;
 
 }
 
-.address-contacts {
+.home-contacts {
 font-style: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
+padding-left: 0;
+
 }
 
 .aboute-title {
@@ -316,14 +323,15 @@ gap: 8px;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;   
-    width: 1230px;
+    width: 1200px;
     text-align: center;
 
 }
 .aboute-list {
     display: flex;
     flex-wrap: wrap;
-   gap: 10px;
+   gap: 30px;
+   padding-left: 0;
 }
 .aboute-list:nth-child(3n)
 {
@@ -358,6 +366,18 @@ gap: 8px;
     width: 1230px;
 }
 .logo-floor {
-    padding-left: 215px;
+    margin-bottom: 20px;
+}
+.container-footer {
+    padding-left: 0;
     padding-top: 60px;
+    width: 1200px;
+    
+}
+.address-contacts.list {
+    
+    margin-right: 0;
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
