@@ -85,6 +85,7 @@ margin-right: 93px;
     margin-top: 0;
     margin-bottom: 0;
     
+    
 }
 
 .nav-list:last-child {
@@ -93,24 +94,19 @@ margin-right: 93px;
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-padding-bottom: 25px;
-padding-right: 0;
+    margin-right: 0;
+    
     
     
 }
 .header-group {
     display: flex;
-    align-items: center;
-
+    
+margin-left: 204px;
     gap: 50px;
 }
-.header-nav-item:not(:last-child) {
-    margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-}
+    
 
 .header-nav-link  {
 font-weight: 500;
@@ -121,7 +117,7 @@ color: var(--main-color);
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
-padding-right: 50px;
+
        }
 
 .header-nav-studio {
@@ -135,7 +131,7 @@ color: var( --main-color);
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
-padding-right: 50px;
+
 }
 .link-contacts {
     font-style: normal;
@@ -167,7 +163,6 @@ font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
     display: inline-block;
-    margin-bottom: 200px;
     padding: 10px 32px;
 }
 .btn:hover, .btn:focus {
@@ -210,6 +205,8 @@ color: var(--main-color);
 .items {
     padding-top: 94px;
     padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .items-text {
     
@@ -218,6 +215,9 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--second-color);
 width: 270px;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 
 
 }
@@ -225,13 +225,15 @@ width: 270px;
     display: flex;
     gap: 30px;
     
-    padding-bottom: 94px;
+    
 }
 .lead-img {
     display: flex;
     gap: 30px;
-   padding-top: 50px;
    padding-bottom: 94px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-left: 0;
 }
 .lead {
     
@@ -242,6 +244,9 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-color);
 padding-top: 94px;
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 50px;
 
 }
 
@@ -270,6 +275,7 @@ font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
 padding-left: 0;
+margin-bottom: 9px;
 
 }
 
@@ -292,16 +298,23 @@ color: var(--second-color);
 .floor {
 
 background: #2F303A;
+padding-left: 20px;
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
 
-.mail-contacs {
+.mail-contacts  {
 
 font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
+margin-top: 9px;
+
 
 }
+
+
 .hero-header-btn .btn {
 font-weight: 500;
 font-size: 16px;
@@ -313,14 +326,21 @@ font-family:inherit;
 .hero-header-btn {
     display: flex;
 justify-content: center;
-align-items: center;
 gap: 8px;
-}
+padding-left: 0;
+padding-top: 94px;
+margin-top: 0;
+margin-bottom: 0;
 
+}
+.tin-tack {
+   
+
+}
 
 .container {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;   
     width: 1200px;
@@ -332,6 +352,15 @@ gap: 8px;
     flex-wrap: wrap;
    gap: 30px;
    padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 56px;
+}
+
+.item-portfolio {
+    display: block;
+    width: 370px;
+
 }
 .aboute-list:nth-child(3n)
 {
@@ -342,17 +371,30 @@ gap: 8px;
     border: 1px solid #757575;
     border-top: none;
 }
+.picture {
+    display: block;
+    flex-basis: calc((100%-60px)/3);
+}
+.foto {
+    display: block;
+    flex-basis: calc((100%-90px)/4);
+}
 
 
 
+.address-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+   
+    
+}
     
     
 .team-img {
-    border: 1px solid #757575;
-    border-top: none;
-    padding-right: 70px;
-    padding-left: 70px;
     padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .hero-btn{
@@ -360,18 +402,22 @@ gap: 8px;
 }
 .text-container {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;   
-    width: 1230px;
+    width: 1200px;
+    
 }
 .logo-floor {
     margin-bottom: 20px;
 }
 .container-footer {
-    padding-left: 0;
-    padding-top: 60px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;   
     width: 1200px;
+   
     
 }
 .address-contacts.list {
@@ -380,4 +426,5 @@ gap: 8px;
     margin-top: 20px;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 0;
 }
