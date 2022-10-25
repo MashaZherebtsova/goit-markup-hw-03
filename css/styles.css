@@ -340,7 +340,7 @@ margin-bottom: 0;
 
 .container {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;   
     width: 1200px;
@@ -402,7 +402,7 @@ margin-bottom: 0;
 }
 .text-container {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;   
     width: 1200px;
@@ -413,7 +413,7 @@ margin-bottom: 0;
 }
 .container-footer {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;   
     width: 1200px;
