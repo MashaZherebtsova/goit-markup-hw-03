@@ -97,11 +97,14 @@ margin-right: 93px;
     display: flex;
     align-items: center;
     margin-right: 0;
-    border: 1px solid #ECECEC;
+    
       
     
 }
 
+.banner {
+    border-bottom: 1px solid #ECECEC;
+}
 .buttons {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -246,6 +249,7 @@ padding-left: 0;
     gap: 30px;
    margin-top: 0;
    margin-bottom: 0;
+   padding-left: 0;
 }
 .lead {
     
@@ -316,7 +320,7 @@ color: var(--second-color);
 .floor {
 
 background: #2F303A;
-padding-left: 20px;
+
 padding-top: 60px;
 padding-bottom: 60px;
 
@@ -430,6 +434,7 @@ padding-left: 0;
 }
 .logotip {
     margin-bottom: 20px;
+    display: block;
 }
 .container-footer {
     margin-left: auto;
